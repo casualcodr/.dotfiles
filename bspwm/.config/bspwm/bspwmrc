@@ -49,7 +49,10 @@ dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 # Picom
 # picom -cb &
 # Network Applet
-nm-applet --indicator &
+# nm-applet --indicator &
+
+# XFCE Powermanager
+xfce4-power-manager --daemon
 
 # Cursor
 xsetroot -cursor_name left_ptr &
